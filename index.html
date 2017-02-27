@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Address book</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Address book</h1>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Add a contact:</h2>
+        <form id="new-contact">
+          <div class="form-group">
+            <label for="new-first-name">First name</label>
+            <input type="text" class="form-control" id="new-first-name" placeholder="First Name">
+          </div>
+          <div class="form-group">
+            <label for="new-last-name">Last name</label>
+            <input type="text" class="form-control" id="new-last-name" placeholder="Last Name">
+          </div>
+          <div class="form-group">
+            <label for="new-phone-number">Phone Number</label>
+            <input type="number" class="form-control" id="new-phone-number" placeholder="+254">
+          </div>
+          <div class="form-group">
+            <label for="new-email">Email</label>
+            <input type="text" class="form-control" id="new-email" placeholder="example@moringaschool.com">
+          </div>
+          <div class="form-group">
+            <label for="new-location">Location</label>
+            <input type="text" class="form-control" id="new-location" placeholder="eg: Nairobi">
+          </div>
+          <div class="form-group">
+            <label for="new-country">Country</label>
+            <input type="text" class="form-control" id="new-country" placeholder="eg: Kenya">
+          </div>
+          <div class="form-group">
+            <label for="new-notes">Notes</label>
+            <input type="text" class="form-control" id="new-notes" placeholder="More Details">
+          </div>
+          <button type="submit" class="btn">Add</button>
+        </form>
+
+        <h2>Contacts:</h2>
+        <ul id="contacts">
+
+        </ul>
+      </div>
+      <!--end column 1-->
+      <div class="col-md-6 text-center">
+        <h2 class="cont">My Contacts</h2>
+        <div id="show-contact">
+          <h2></h2>
+
+          <p><strong>First name:</strong> <span class="first-name"></span></p>
+          <p><strong>Last name:</strong> <span class="last-name"></span></p>
+          <p><strong>Phone Number:</strong> <span class="phone-number"></span></p>
+          <p><strong>Email:</strong> <span class="email"></span></p>
+          <p><strong>Location:</strong> <span class="location"></span></p>
+          <p><strong>Country:</strong> <span class="country"></span></p>
+          <p><strong>Notes:</strong> <span class="notes"></span></p>
+        </div>
+        <!--end id-->
+      </div>
+      <!--end column 2-->
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- container end -->
+</body>
+
+</html>
+
+</html>
+
+</html>
