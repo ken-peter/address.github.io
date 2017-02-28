@@ -45,7 +45,7 @@ $(document).ready(function() {
       $("#show-contact h2").text(newContact.firstName);
       $(".first-name").text(newContact.firstName);
       $(".last-name").text(newContact.lastName);
-      $(".number").text(newContact.number);
+      $(".phone-number").text(newContact.Number);
       $(".email").text(newContact.email);
       $(".location").text(newContact.location);
       $(".country").text(newContact.country);
